@@ -5,6 +5,7 @@ Automates some Google browser-based recon tasks.
 ## Install:
 
 pip install -r requirements.txt
+
 Please add default logging folder, browser information, and Fireprox URL (if any) to settings in code. 
 
 ## Usage:
