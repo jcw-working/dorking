@@ -19,7 +19,7 @@ import time
 version_number = "Resolve/Platform Supplementary Browser Recon"
 
 # default logging output directory
-outdir = "C:\\Users\\jwilkes\\AppData\\Local\\Temp\\"
+outdir = "C:\\Users\\<username>\\AppData\\Local\\Temp\\"
 
 # Where is your browser, and what is it?
 
@@ -27,10 +27,10 @@ firefox_path = r"C:\\Program Files\\Mozilla Firefox\\firefox.exe"
 webbrowser.register('firefox',None,webbrowser.BackgroundBrowser(firefox_path))
 b = webbrowser.get('firefox')
 
-# URL for search engine?
+# URL for search engine?  A rotating proxy is recommended...
 
-#engine="https://www.google.com"
-engine="https://7r14jjgrnd.execute-api.us-west-1.amazonaws.com/fireprox"
+engine="https://www.google.com"
+#engine="<Fireprox URL for Google>"
 
 ###################################################
 
