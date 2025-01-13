@@ -1,17 +1,17 @@
-# dorking
+# Browser-Based Recon
 
 Automates some Google browser-based recon tasks.
 
-Install:
+## Install:
 
 pip install -r requirements.txt
 Please add default logging folder, browser information, and Fireprox URL (if any) to settings in code. 
 
-Usage: browser_recon_platform.py [options] 
+## Usage:
 
 python3 .\browser_recon_platform.py -d <target domain> -s <search string> -t (optional throttle) -m (optional maximum tabs fired) -a (optional autofire all tests) -o (optional output directory)
 
-Options:
+## Options:
 
 	-h, --help				show this help message and exit
 
@@ -29,6 +29,6 @@ Options:
 
 Enclose complex strings in single quotes e.g. '/a/file/path' or 'Company Name'
 
-Example:
+## Example:
 
 python3 .\browser_recon_platform.py -d behind-bars.com -s 'Behind Bars' -t 2 -a -o '/tmp/engagement'
