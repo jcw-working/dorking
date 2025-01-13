@@ -19,7 +19,7 @@ import time
 version_number = "1.0"
 
 # default logging output directory
-outdir = "C:\\Users\\jwilkes\\AppData\\Local\\Temp\\"
+outdir = "C:\\Users\\<user>\\AppData\\Local\\Temp\\"
 
 # Where is your browser, and what is it?
 
@@ -29,8 +29,8 @@ b = webbrowser.get('firefox')
 
 # URL for search engine?  Rotating proxy recommended...
 
-#engine="https://www.google.com"
-engine="https://7r14jjgrnd.execute-api.us-west-1.amazonaws.com/fireprox"
+engine="https://www.google.com"
+#engine="<fireprox URL"
 
 ###################################################
 
