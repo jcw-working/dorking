@@ -10,7 +10,7 @@ Please add default logging folder, browser information, and Fireprox URL (if any
 
 ## Usage:
 
-python3 .\browser_recon_platform.py -d <target domain> -s <search string> -t (optional throttle) -m (optional maximum tabs fired) -a (optional autofire all tests) -o (optional output directory)
+python3 .\browser_recon_platform.py -d (target domain) -s (search string) -t (optional throttle) -m (optional maximum tabs fired) -a (optional autofire all tests) -o (optional output directory)
 
 ## Options:
 
