@@ -7,7 +7,7 @@ Install:
 pip install -r requirements.txt
 Please add default logging folder, browser information, and Fireprox URL (if any) to settings in code. 
 
-Usage: browser_recon_platform.py [options]
+Usage: browser_recon_platform.py [options] 
 
 python3 .\browser_recon_platform.py -d <target domain> -s <search string> -t (optional throttle) -m (optional maximum tabs fired) -a (optional autofire all tests) -o (optional output directory)
 
